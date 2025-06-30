@@ -2,7 +2,7 @@
 import { Hero } from '@/components/Hero';
 import { FeaturedEssays } from '@/components/FeaturedEssays';
 import { ServicesSection } from '@/components/ServicesSection';
-import { SpeakingSection } from '@/components/SpeakingSection';
+import { AboutSection } from '@/components/AboutSection';
 import { ProjectsSection } from '@/components/ProjectsSection';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
@@ -20,8 +20,8 @@ const Index = () => {
         <div className="relative z-10">
           <FeaturedEssays />
           <ServicesSection />
-          <SpeakingSection />
           <ProjectsSection />
+          <AboutSection />
         </div>
         
         <Footer />

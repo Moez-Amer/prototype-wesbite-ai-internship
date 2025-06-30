@@ -34,7 +34,7 @@ export const FeaturedEssays = () => {
       url: "https://natesnewsletter.substack.com"
     },
     {
-      title: "2 Posts in One: Meta's AI Strategy Looks Desperate + Your Invite to Nate's New AI Discord Community",
+      title: "2 Posts in One: Meta's AI Strategy Looks Desperate + Your Invite to Nate B Jones' New AI Discord Community",
       summary: "We now have a discord guys, plus I wanted to give you quick TLDR on Zuck's strategy at Meta these days—it is WILD and I am definitely taking the gloves off on this analysis.",
       readTime: "6 min read",
       date: "Jun 26",
@@ -105,7 +105,7 @@ export const FeaturedEssays = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-cyan-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105"
           >
-            Subscribe to Nate's Newsletter <ExternalLink size={16} />
+            Subscribe to Nate B Jones Newsletter <ExternalLink size={16} />
           </a>
         </div>
       </div>

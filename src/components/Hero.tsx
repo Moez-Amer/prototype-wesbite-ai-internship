@@ -33,17 +33,17 @@ export const Hero = () => {
           </a>
           
           <a 
-            href="#speaking"
+            href="#services"
             className="border border-gray-600 text-white px-8 py-4 rounded-lg font-semibold hover:border-cyan-400 hover:text-cyan-400 transition-all duration-300 transform hover:scale-105"
           >
-            Book Me to Speak
+            Services & Products
           </a>
           
           <a 
             href="#projects"
             className="text-gray-300 hover:text-white transition-colors underline underline-offset-4 hover:underline-offset-8"
           >
-            See Live Experiments
+            See Live Projects
           </a>
         </div>
         

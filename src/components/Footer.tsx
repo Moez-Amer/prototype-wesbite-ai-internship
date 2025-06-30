@@ -8,7 +8,7 @@ export const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <h3 className="text-xl font-bold mb-4">
-              <span className="text-white">Nate</span>
+              <span className="text-white">Nate B Jones</span>
               <span className="text-cyan-400 ml-2">█</span>
             </h3>
             <p className="text-gray-300 leading-relaxed">
@@ -28,9 +28,9 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-cyan-400">Work</h4>
             <ul className="space-y-2">
-              <li><a href="#speaking" className="text-gray-300 hover:text-white transition-colors">Speaking</a></li>
-              <li><a href="mailto:nate@example.com" className="text-gray-300 hover:text-white transition-colors">Consulting</a></li>
-              <li><a href="mailto:nate@example.com" className="text-gray-300 hover:text-white transition-colors">Workshops</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-white transition-colors">Services & Products</a></li>
+              <li><a href="#about" className="text-gray-300 hover:text-white transition-colors">About Me</a></li>
+              <li><a href="https://natesnewsletter.substack.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">Newsletter</a></li>
             </ul>
           </div>
           
@@ -38,13 +38,13 @@ export const Footer = () => {
             <h4 className="font-semibold mb-4 text-cyan-400">Connect</h4>
             <ul className="space-y-2">
               <li>
-                <a href="mailto:nate@example.com" className="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
-                  Email <ExternalLink size={14} />
+                <a href="https://natebjones.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
+                  Main Website <ExternalLink size={14} />
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/nate" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
-                  Twitter <ExternalLink size={14} />
+                <a href="https://natesnewsletter.substack.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
+                  Substack <ExternalLink size={14} />
                 </a>
               </li>
               <li>
