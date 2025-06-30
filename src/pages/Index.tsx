@@ -1,7 +1,7 @@
 
-import React from 'react';
 import { Hero } from '@/components/Hero';
 import { FeaturedEssays } from '@/components/FeaturedEssays';
+import { ServicesSection } from '@/components/ServicesSection';
 import { SpeakingSection } from '@/components/SpeakingSection';
 import { ProjectsSection } from '@/components/ProjectsSection';
 import { Navigation } from '@/components/Navigation';
@@ -19,6 +19,7 @@ const Index = () => {
         
         <div className="relative z-10">
           <FeaturedEssays />
+          <ServicesSection />
           <SpeakingSection />
           <ProjectsSection />
         </div>

@@ -1,11 +1,11 @@
 
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ExternalLink } from 'lucide-react';
 
 export const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
@@ -27,15 +27,16 @@ export const Navigation = () => {
           
           <div className="hidden md:flex items-center space-x-8">
             <a href="#essays" className="text-gray-300 hover:text-cyan-400 transition-colors">Essays</a>
+            <a href="#services" className="text-gray-300 hover:text-cyan-400 transition-colors">Services</a>
             <a href="#speaking" className="text-gray-300 hover:text-cyan-400 transition-colors">Speaking</a>
             <a href="#projects" className="text-gray-300 hover:text-cyan-400 transition-colors">Projects</a>
             <a 
-              href="https://substack.com" 
+              href="https://natesnewsletter.substack.com" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-gray-300 hover:text-cyan-400 transition-colors"
             >
-              Substack <ExternalLink size={16} />
+              Newsletter <ExternalLink size={16} />
             </a>
           </div>
         </div>

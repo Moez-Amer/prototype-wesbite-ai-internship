@@ -1,0 +1,111 @@
+{
+  "navLinks": [
+    { "text": "My Guide to AI & Careers", "href": "#guide" },
+    { "text": "Get My AI Prompts", "href": "#prompts" },
+    { "text": "AI Robot Club", "href": "#robot-club" },
+    { "text": "My AI Projects", "href": "#projects" },
+    { "text": "Get in touch", "href": "#contact" },
+    { "text": "My Story", "href": "#story" }
+  ],
+  
+  "hero": "I'm building a compass for the age of AI",
+  
+  "offers": [
+    {
+      "type": "30-min-video-guide",
+      "title": "30-minute AI Video Guide",
+      "description": "A comprehensive video guide that covers AI fundamentals, career opportunities, and practical applications. Perfect for beginners and professionals looking to understand the AI landscape.",
+      "price": "Free",
+      "cta": "Get the Guide",
+      "url": "#video-guide"
+    },
+    {
+      "type": "ai-robot-club",
+      "title": "AI Robot Club",
+      "description": "Exclusive community for AI enthusiasts, builders, and experimenters. Connect with like-minded individuals, share projects, and collaborate on cutting-edge AI initiatives.",
+      "price": "Monthly membership",
+      "cta": "Join the Club",
+      "url": "#robot-club"
+    },
+    {
+      "type": "career-accelerator",
+      "title": "AI Career Accelerator Course",
+      "description": "Structured course designed to fast-track your AI career. Covers technical skills, industry insights, networking strategies, and practical project experience.",
+      "price": "Course fee applies",
+      "cta": "Enroll Now",
+      "url": "#career-course"
+    },
+    {
+      "type": "consultation-30",
+      "title": "30-min with Nate",
+      "description": "One-on-one consultation session to discuss your AI career path, get advice on projects, or explore collaboration opportunities.",
+      "price": "$150",
+      "cta": "Book Session",
+      "url": "#book-30min"
+    },
+    {
+      "type": "consultation-60",
+      "title": "60-min with Nate",
+      "description": "Extended consultation and strategy session for in-depth career planning, project review, or business strategy discussion.",
+      "price": "$250",
+      "cta": "Book Extended Session",
+      "url": "#book-60min"
+    },
+    {
+      "type": "monthly-mentorship",
+      "title": "Monthly Mentorship",
+      "description": "Ongoing monthly mentorship program with regular check-ins, goal setting, progress tracking, and personalized guidance.",
+      "price": "Monthly fee",
+      "cta": "Start Mentorship",
+      "url": "#mentorship"
+    },
+    {
+      "type": "prompt-library",
+      "title": "AI Prompt Library",
+      "description": "Curated collection of effective AI prompts for various use cases including content creation, problem-solving, analysis, and creative projects.",
+      "price": "One-time purchase",
+      "cta": "Get Prompts",
+      "url": "#prompts"
+    }
+  ],
+  
+  "projects": [
+    {
+      "name": "GimmeJuice.AI",
+      "description": "AI-powered content generation platform",
+      "url": "https://gimmejuice.ai",
+      "status": "Active"
+    },
+    {
+      "name": "Tracker.Vote",
+      "description": "Voting and decision tracking platform", 
+      "url": "https://tracker.vote",
+      "status": "Active"
+    }
+  ],
+  
+  "circles": [
+    {
+      "name": "Job Hunt Circle",
+      "description": "Peer learning group for job seekers navigating the AI job market. Share opportunities, practice interviews, and support each other.",
+      "url": "#job-hunt-circle",
+      "schedule": "Weekly meetups"
+    },
+    {
+      "name": "Product Circle", 
+      "description": "Community for product managers and builders working on AI-powered products. Discuss strategy, share insights, and collaborate.",
+      "url": "#product-circle",
+      "schedule": "Bi-weekly sessions"
+    },
+    {
+      "name": "Founder's Circle",
+      "description": "Support group for entrepreneurs and founders building AI startups. Network, share challenges, and learn from each other.",
+      "url": "#founders-circle", 
+      "schedule": "Monthly gatherings"
+    }
+  ],
+  
+  "bio": "# My Story\n\nFrom Indonesia to Seattle, I've been on a journey to understand and build the future of AI.\n\nMy path started in Indonesia, where I first discovered my passion for technology and its potential to solve real-world problems. The journey brought me to Seattle, where I've immersed myself in the AI ecosystem, working with startups, building tools, and connecting with other innovators.\n\nI believe we're at a critical inflection point in human history. AI isn't just another technology—it's a fundamental shift in how we work, create, and solve problems. But with great power comes great responsibility, and I'm committed to helping others navigate this landscape thoughtfully and effectively.\n\nThrough my writing, speaking, and community building, I aim to be a compass for others in the age of AI. Whether you're just starting your AI journey or you're a seasoned professional looking to stay ahead of the curve, I'm here to help you find your way.\n\nWhen I'm not building or writing about AI, you can find me experimenting with new tools, mentoring others, or thinking about what comes next in this rapidly evolving field.",
+  
+  "internSection": "## I'm hiring 2 interns!\n\nJoin the team to work on cutting-edge AI projects and gain hands-on experience in the rapidly evolving AI landscape.\n\n### What you'll do:\n- Work on real AI projects with immediate impact\n- Learn from industry experts and practitioners\n- Contribute to open-source AI tools and resources\n- Participate in community building and content creation\n- Gain exposure to the startup ecosystem\n\n### What we're looking for:\n- Passion for AI and emerging technologies\n- Strong communication and collaboration skills\n- Willingness to learn and experiment\n- Basic technical skills (coding, data analysis, or design)\n- Entrepreneurial mindset\n\n### What you'll get:\n- Hands-on experience with cutting-edge AI tools\n- Mentorship and career guidance\n- Network access to AI professionals and founders\n- Portfolio projects you can showcase\n- Potential for full-time opportunities\n\nReady to dive into the future of AI? Let's build something amazing together.\n\n[Apply for Internship](#apply-intern)"
+}

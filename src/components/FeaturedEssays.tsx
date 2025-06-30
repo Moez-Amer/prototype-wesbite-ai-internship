@@ -1,29 +1,60 @@
 
-import React from 'react';
 import { ExternalLink } from 'lucide-react';
 
-const essays = [
-  {
-    title: "I Don't Want a Job, I Want a Gravity Well",
-    summary: "Why the traditional career path is broken and how to build something that pulls opportunities toward you instead of chasing them.",
-    readTime: "8 min read",
-    url: "https://substack.com/essay1"
-  },
-  {
-    title: "God Mode UX",
-    summary: "The user experience revolution happening right now as AI transforms how we interact with digital products and services.",
-    readTime: "6 min read", 
-    url: "https://substack.com/essay2"
-  },
-  {
-    title: "AI is Not Your Copilot. It's the Lab.",
-    summary: "Reframing our relationship with AI from assistant to experimental environment—and why that changes everything.",
-    readTime: "12 min read",
-    url: "https://substack.com/essay3"
-  }
-];
+interface SubstackPost {
+  title: string;
+  summary: string;
+  url: string;
+  date: string;
+  readTime: string;
+}
 
 export const FeaturedEssays = () => {
+  // Real essays from Nate's Substack
+  const essays: SubstackPost[] = [
+    {
+      title: "Executive Briefing: EU AI Act Enforcement, Risk, and Positioning Scenarios",
+      summary: "A note focused on navigating the enforcement risks associated with the EU AI Act, including a proprietary tiered risk model that helps you identify your compliance requirements and strategic positioning.",
+      readTime: "12 min read",
+      date: "Dec 2024",
+      url: "https://natesnewsletter.substack.com"
+    },
+    {
+      title: "What Good Is a College Degree When AI Knows Everything? Grab the Job Skills That Matter in an AI World",
+      summary: "We live in a hyper-inflating knowledge economy, and everything we think we knew about jobs and college is eroding. So what do we do? This post lays out the skills that actually matter when AI can handle most knowledge work.",
+      readTime: "15 min read",
+      date: "Jun 27",
+      url: "https://natesnewsletter.substack.com"
+    },
+    {
+      title: "Ready for ChatGPT-5: Grab a Complete 139 Page Prompting Guide That's a Complete Operating System for Life and Work",
+      summary: "Get ahead of ChatGPT-5 with my 139 page prompt playbook that's built to fully harness the full power of today's models to tackle strategy, trade-offs, and complex decision-making across your entire workflow.",
+      readTime: "8 min read",
+      date: "Jun 26",
+      url: "https://natesnewsletter.substack.com"
+    },
+    {
+      title: "2 Posts in One: Meta's AI Strategy Looks Desperate + Your Invite to Nate's New AI Discord Community",
+      summary: "We now have a discord guys, plus I wanted to give you quick TLDR on Zuck's strategy at Meta these days—it is WILD and I am definitely taking the gloves off on this analysis.",
+      readTime: "6 min read",
+      date: "Jun 26",
+      url: "https://natesnewsletter.substack.com"
+    },
+    {
+      title: "The Claude Code Complete Guide: Learn Vibe-Coding & Agentic AI",
+      summary: "Unlock Anthropic's terminal-based AI: From 5-minute setup to multi-agent workflows, learn best practices, cost control & vibe-coding tricks to build anything with Claude's coding capabilities.",
+      readTime: "9 min read",
+      date: "Jun 25",
+      url: "https://natesnewsletter.substack.com"
+    },
+    {
+      title: "The Anthropic Ruling: A Roadmap for AI's Copyright Future",
+      summary: "Federal court says training AI on books is fair use, but pirating them isn't. The Anthropic decision reshapes copyright law for the AI industry, with major implications for training data and model development.",
+      readTime: "6 min read",
+      date: "Jun 25",
+      url: "https://natesnewsletter.substack.com"
+    }
+  ];
   return (
     <section id="essays" className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
@@ -32,7 +63,7 @@ export const FeaturedEssays = () => {
             Featured <span className="text-cyan-400">Essays</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Deep dives into AI, automation, and the future of work and creativity.
+            Deep dives into AI, automation, consciousness, and the future of human-machine collaboration. Fresh perspectives on the technology reshaping our world.
           </p>
         </div>
         
@@ -42,15 +73,16 @@ export const FeaturedEssays = () => {
               key={index}
               className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-6 hover:border-cyan-400/50 transition-all duration-300 group hover:transform hover:scale-105"
             >
-              <div className="mb-4">
+              <div className="mb-4 flex items-center justify-between">
                 <span className="text-sm text-cyan-400 font-medium">{essay.readTime}</span>
+                <span className="text-xs text-gray-500">{essay.date}</span>
               </div>
               
-              <h3 className="text-xl font-bold mb-4 group-hover:text-cyan-400 transition-colors">
+              <h3 className="text-xl font-bold mb-4 group-hover:text-cyan-400 transition-colors leading-tight">
                 {essay.title}
               </h3>
               
-              <p className="text-gray-300 mb-6 leading-relaxed">
+              <p className="text-gray-300 mb-6 leading-relaxed text-sm">
                 {essay.summary}
               </p>
               
@@ -58,9 +90,9 @@ export const FeaturedEssays = () => {
                 href={essay.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-cyan-400 font-semibold hover:text-cyan-300 transition-colors"
+                className="inline-flex items-center gap-2 text-cyan-400 font-semibold hover:text-cyan-300 transition-colors text-sm"
               >
-                Read on Substack <ExternalLink size={16} />
+                Read on Substack <ExternalLink size={14} />
               </a>
             </article>
           ))}
@@ -68,12 +100,12 @@ export const FeaturedEssays = () => {
         
         <div className="text-center mt-12">
           <a 
-            href="https://substack.com"
+            href="https://natesnewsletter.substack.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-cyan-600 hover:to-purple-700 transition-all duration-300"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-cyan-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105"
           >
-            View All Essays <ExternalLink size={16} />
+            Subscribe to Nate's Newsletter <ExternalLink size={16} />
           </a>
         </div>
       </div>

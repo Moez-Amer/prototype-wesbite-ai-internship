@@ -1,6 +1,4 @@
 
-import React from 'react';
-
 const pastTalks = [
   {
     title: "The Future of Human-AI Collaboration",
